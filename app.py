@@ -38,7 +38,7 @@ st.title('Chest X-ray Image Classification')
 st.write('This app classifies chest X-ray images into Normal, Pneumonia, or Tuberculosis (TB)')
 
 # Load the trained model
-model_path = 'C:/Users/Administrator/OneDrive/Desktop/halu/my_model.h5'
+model_path = 'my_model.h5'  # If my_model.h5 is in the same folder as this script
 model = tf.keras.models.load_model(model_path)
 
 def preprocess_image(img):
