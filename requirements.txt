@@ -74,7 +74,7 @@ jupyter_core @ file:///C:/b/abs_c769pbqg9b/croot/jupyter_core_1698937367513/work
 keras==3.1.1
 keyring @ file:///C:/b/abs_78uoj9sw00/croot/keyring_1709632550180/work
 kiwisolver @ file:///C:/ci_311/kiwisolver_1676431979301/work
-libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
+libarchive-c @ file:///tmp/build/80754af9/libarchive-c_1617780486945/work
 libclang==18.1.1
 libmambapy @ file:///C:/b/abs_89suv9zwkz/croot/mamba-split_1714484512428/work/libmambapy
 markdown-it-py==3.0.0
@@ -176,3 +176,4 @@ wrapt==1.16.0
 xlrd==2.0.1
 zipp @ file:///C:/b/abs_b0beoc27oa/croot/zipp_1704206963359/work
 zstandard @ file:///C:/b/abs_e46tf0_91g/croot/zstandard_1714678303615/work
+gdown==4.6.4
