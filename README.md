@@ -1,11 +1,4 @@
-# Deep-ensemble-learning-based-computer-aided-diagnostics-for-classifying-chest-X-ray-image
-
----
-
-```markdown
 # 🩺 Deep Ensemble Learning-Based Chest X-ray Classifier
-
-![Logo](logo.jpeg)
 
 This repository presents a deep learning-based diagnostic platform for classifying chest X-ray images into **Normal**, **Pneumonia**, and **Tuberculosis** using multiple CNN models. The final model is selected through performance comparison and deployed using **Streamlit**.
 
@@ -24,12 +17,10 @@ Respiratory illnesses like pneumonia and tuberculosis account for millions of de
 The dataset is organized into 3 primary classes and split into three main directories:
 
 ```
-
 /Normal
 /PNEUMONIA
 /Tuberculosis
-
-````
+```
 
 Subdirectories:
 - `train/`
@@ -75,7 +66,7 @@ git clone https://github.com/haylisha/chest-xray-classifier.git
 cd chest-xray-classifier
 pip install -r requirements.txt
 streamlit run app.py
-````
+```
 
 ---
 
@@ -96,10 +87,10 @@ We store the trained model on Google Drive and download it when needed.
 Example link:
 
 ```
-[https://drive.google.com/file/d/1Q1rIjW-3kP0NED8n8vhvRYU4NkkfmYX9/view?usp=drive_link]
+https://drive.google.com/file/d/1a2BcD3EfGHiJKlmNOPq/view?usp=sharing
 ```
 
-File ID: `1Q1rIjW-3kP0NED8n8vhvRYU4NkkfmYX9`
+File ID: `1a2BcD3EfGHiJKlmNOPq`
 
 4. Use the following code in your app:
 
@@ -109,7 +100,7 @@ import gdown
 from tensorflow.keras.models import load_model
 
 model_path = "my_model.h5"
-file_id = "1Q1rIjW-3kP0NED8n8vhvRYU4NkkfmYX9"
+file_id = "1a2BcD3EfGHiJKlmNOPq"
 download_url = f"https://drive.google.com/uc?id={file_id}"
 
 if not os.path.exists(model_path):
@@ -128,44 +119,44 @@ gdown
 
 ## 🧪 Notebooks
 
-| File              | Description                            |
-| ----------------- | -------------------------------------- |
-| `Resnet50.ipynb`  | ResNet50 model training                |
-| `densenet.ipynb`  | DenseNet121 training                   |
-| `inception.ipynb` | InceptionV3 training                   |
-| `mobilenet.ipynb` | MobileNetV2 training                   |
-| `RNN.ipynb`       | Experimental model (RNN layers)        |
-| `ygg16.ipynb`     | VGG16 variant experiment               |
-| `my_model.h5`     | Final trained model (loaded via Drive) |
-| `streamlit/`      | Web app UI using Streamlit             |
+| File             | Description |
+|------------------|-------------|
+| `Resnet50.ipynb` | ResNet50 model training |
+| `densenet.ipynb` | DenseNet121 training    |
+| `inception.ipynb`| InceptionV3 training    |
+| `mobilenet.ipynb`| MobileNetV2 training    |
+| `RNN.ipynb`      | Experimental model (RNN layers) |
+| `ygg16.ipynb`    | VGG16 variant experiment       |
+| `my_model.h5`    | Final trained model (loaded via Drive) |
+| `streamlit/`     | Web app UI using Streamlit     |
 
 ---
 
 ## 🖼️ App Features
 
-* Drag-and-drop X-ray image upload
-* Real-time classification
-* Class probability display
-* Disease diagnosis output
-* Grad-CAM heatmap visualization (optional future update)
+- Drag-and-drop X-ray image upload
+- Real-time classification
+- Class probability display
+- Disease diagnosis output
+- Grad-CAM heatmap visualization (optional future update)
 
 ---
 
 ## 🚧 Limitations
 
-* Performance may drop on unseen domains (e.g., low-resolution scans)
-* Does not handle multi-label disease detection
-* Limited to 3-class classification: Normal, Pneumonia, Tuberculosis
+- Performance may drop on unseen domains (e.g., low-resolution scans)
+- Does not handle multi-label disease detection
+- Limited to 3-class classification: Normal, Pneumonia, Tuberculosis
 
 ---
 
 ## 🌟 Future Work
 
-* Add support for COVID-19 detection
-* Optimize model for edge/mobile deployment
-* Federated learning for privacy-preserving diagnostics
-* Expand to multi-label disease classification
-* API integration with hospital information systems
+- Add support for COVID-19 detection
+- Optimize model for edge/mobile deployment
+- Federated learning for privacy-preserving diagnostics
+- Expand to multi-label disease classification
+- API integration with hospital information systems
 
 ---
 
@@ -183,13 +174,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 🙌 Acknowledgements
 
-* TensorFlow & Keras
-* Streamlit
-* Google Drive for model storage
-* NIH CXR datasets
-* Open-source community ❤️
-
-```
-
-
-```
+- TensorFlow & Keras
+- Streamlit
+- Google Drive for model storage
+- NIH CXR datasets
+- Open-source community ❤️
