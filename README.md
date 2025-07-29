@@ -1,5 +1,4 @@
 # Deep-ensemble-learning-based-computer-aided-diagnostics-for-classifying-chest-X-ray-image
-Sure! Below is your **complete `README.md` file in GitHub markdown format**, incorporating everything from project introduction to model deployment using Google Drive, formatted professionally for direct pasting into your repository:
 
 ---
 
